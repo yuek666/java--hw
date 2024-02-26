@@ -8,9 +8,14 @@ public class hw1_2_2{
 		Scanner input = new Scanner( System.in ) ;
 		System.out.println( "please input Months " ) ;
 		System.out.println( "please input Day " ) ;
-		int year = input.nextInt ;
-		int month = input.nextInt ;
-		int day = input.nextInt ;
+		int year = input.nextInt() ;
+		int month = input.nextInt() ;
+		int day = input.nextInt() ;
+		int[] md = { 31 , 28 , 31 , 30 , 31 , 30 , 31 , 31 , 30 , 31 , 30 , 31 } ;
+		if ( year % 4 == 0 )
+		{
+			md[1] ++ ;
+		}
 	} 
 
 
