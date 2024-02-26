@@ -1,6 +1,6 @@
 //U11216019 劉宸昕
 
-public class hw1_1_1{
+public class hw1_2_1{
     public static void main ( String[] args )
     {
         Scanner input = new Scanner( System.in ) ;
